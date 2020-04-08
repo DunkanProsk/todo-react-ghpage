@@ -1,0 +1,78 @@
+body {
+  font-family: 'Comfortaa', cursive;
+  font-size: 16px;
+  color: rgb(120, 120, 122);
+  text-shadow: 1px 1px 1px #fff;
+  background-color: #EBECF0;
+  margin: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+button {
+  font-family: 'Comfortaa', cursive;
+}
+
+.body__input {
+  box-shadow: inset 1px 1px 2px #BABECC, inset -1px -1px 2px #ffffff;
+}
+
+.body__input:focus {
+  box-shadow:  inset 2px 2px 5px #BABECC, inset -5px -5px 20px #ffffff;
+}
+
+.body__button {
+  box-shadow: -5px -5px 15px #ffffff,  5px 5px 15px #BABECC;
+}
+
+.body__button:hover {
+  box-shadow: -2px -2px 5px #fff, 2px 2px 5px #BABECC;
+}
+
+.body__button:active {
+  box-shadow: inset 1px 1px 2px #BABECC, inset -1px -1px 2px #ffffff;
+}
+
+.body__buttonFil {
+  box-shadow: -4px -4px 12px #ffffff,  4px 4px 12px #BABECC;
+}
+
+.body__buttonFilAct {
+  box-shadow: -2px -2px 5px #fff, 2px 2px 5px #BABECC;
+}
+
+
+.body__buttonFil:hover {
+  box-shadow: -2px -2px 5px #fff, 2px 2px 5px #BABECC;
+}
+
+.body__buttonFil:active {
+  box-shadow: inset 1px 1px 2px #BABECC, inset -1px -1px 2px #ffffff;
+}
+
+li {
+  box-shadow: -2px -2px 5px #fff, 2px 2px 5px #BABECC;
+}
+
+li:hover {
+  transition: 0.4s;
+  box-shadow: -5px -5px 20px #ffffff, 5px 5px 20px #BABECC;
+}
+
+.body__button--remove {
+  background-color: #EBECF0;
+  transition: 0.4s;
+  color: #BABECC;
+  border: 0px solid;
+}
+
+.body__button--remove:hover {
+  transition: 0.4s;
+  color: #000000;
+  border: 0px solid;
+  outline: 0;
+}
+
+.done {
+  text-decoration: line-through;
+}
